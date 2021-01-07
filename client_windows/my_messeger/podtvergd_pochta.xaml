@@ -1,0 +1,21 @@
+﻿<Page
+    x:Class="my_messeger.podtvergd_pochta"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:my_messeger"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+
+    <Grid>
+        <RelativePanel VerticalAlignment="Center" HorizontalAlignment="Center">
+            <StackPanel x:Name="Customer" Margin="20" HorizontalAlignment="Center">
+                <TextBox TextAlignment="Center" CornerRadius="15" Width="200" x:Name="Podtcerj_mail" PlaceholderText="Код доступа" Margin="0,0,0,0" HorizontalAlignment="Center" />
+            </StackPanel>
+            <StackPanel Width="250" x:Name="Save" Orientation="Vertical" RelativePanel.Below="Customer">
+                <Button CornerRadius="10" x:Name="do_proverk" Content="Подтвердить почту" Margin="0,0,0,0" HorizontalAlignment="Center" Click="Do_proverk_Click" />
+            </StackPanel>
+        </RelativePanel>
+    </Grid>
+</Page>

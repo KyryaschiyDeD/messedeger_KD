@@ -1,0 +1,19 @@
+﻿<Page
+    x:Class="my_messeger.messedger"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:my_messeger"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+    
+    <Grid>
+        <ScrollViewer>
+            <StackPanel>
+                <TextBlock Text="Месседжер" Style="{StaticResource TitleTextBlockStyle}"/>
+                <!-- more page content -->
+            </StackPanel>
+        </ScrollViewer>
+    </Grid>
+</Page>
