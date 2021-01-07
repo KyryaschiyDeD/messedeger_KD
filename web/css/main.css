@@ -1,0 +1,77 @@
+/* CSS Document */
+.absolut_center {
+		margin: auto;
+}
+
+
+
+.border_radius_15 {
+	border-radius: 15px;
+}
+
+
+.pt-5 {
+	margin-top: 5px;
+}
+.pt-10 {
+	margin-top: 10px;
+}
+.pt-15 {
+	margin-top: 15px;
+}
+.pt-20 {
+	margin-top: 20px;
+}
+
+.pt-20p {
+	margin-top: 20%;
+}
+.pt-15p {
+	margin-top: 15%;
+}
+.pt-10p {
+	margin-top: 10%;
+}
+.pt-5p {
+	margin-top: 5%;
+}
+.pt-2p {
+	margin-top: 2%;
+}
+
+
+
+.pl-5 {
+	margin-left: 5px;
+}
+.pl-10 {
+	margin-left: 10px;
+}
+.pl-15 {
+	margin-left: 15px;
+}
+
+.pl-1p {
+	margin-left: 1%;
+}
+.pl-5p {
+	margin-left: 5%;
+}
+.pl-10p {
+	margin-left: 10%;
+}
+.pl-15p {
+	margin-left: 15%;
+}
+
+
+
+.pr-5 {
+	margin-right: 5px;
+}
+.pr-10 {
+	margin-right: 10px;
+}
+.pr-15 {
+	margin-right: 15px;
+}
